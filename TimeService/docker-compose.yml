@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  authentication:
+    build:
+      context: .
+    image: ${ECR_URL}/${ORGANIZATION}/${CI_PROJECT_NAME}-authentication:${COMMIT_SHA}
+    environment:
+      CSSDataAccess_Server: "10.128.0.112"
+      CSSDataAccess_Port: "25400"
+    ports:
+      - target: 80
+    networks:
+      - api
+    deploy:
+      mode: replicated
+      replicas: 1
+      labels:
+        traefik.port: 80
+        traefik.backend: ${CI_PROJECT_NAME}
+        traefik.frontend.rule: "PathPrefixStrip:/${CI_PROJECT_NAME}"
+        traefik.docker.network: api
+        traefik.backend.healthcheck.path: /health
+
+networks:
+  api:
+    driver: overlay
+    external: true

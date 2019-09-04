@@ -1,0 +1,14 @@
+C:\concord\POCs\TimeService\TimeService\bin\Debug\netcoreapp2.2\TimeService.deps.json
+C:\concord\POCs\TimeService\TimeService\bin\Debug\netcoreapp2.2\TimeService.runtimeconfig.json
+C:\concord\POCs\TimeService\TimeService\bin\Debug\netcoreapp2.2\TimeService.runtimeconfig.dev.json
+C:\concord\POCs\TimeService\TimeService\bin\Debug\netcoreapp2.2\TimeService.dll
+C:\concord\POCs\TimeService\TimeService\bin\Debug\netcoreapp2.2\TimeService.pdb
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.csprojAssemblyReference.cache
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.csproj.CoreCompileInputs.cache
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.RazorAssemblyInfo.cache
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.RazorAssemblyInfo.cs
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.AssemblyInfoInputs.cache
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.AssemblyInfo.cs
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.RazorTargetAssemblyInfo.cache
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.dll
+C:\concord\POCs\TimeService\TimeService\obj\Debug\netcoreapp2.2\TimeService.pdb
